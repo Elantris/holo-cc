@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/holo-cc/static/css/main.b5e36b2b.chunk.css",
+    "main.js": "/holo-cc/static/js/main.c4341eff.chunk.js",
+    "main.js.map": "/holo-cc/static/js/main.c4341eff.chunk.js.map",
+    "runtime-main.js": "/holo-cc/static/js/runtime-main.e9eb4be8.js",
+    "runtime-main.js.map": "/holo-cc/static/js/runtime-main.e9eb4be8.js.map",
+    "static/js/2.a22df34c.chunk.js": "/holo-cc/static/js/2.a22df34c.chunk.js",
+    "static/js/2.a22df34c.chunk.js.map": "/holo-cc/static/js/2.a22df34c.chunk.js.map",
+    "index.html": "/holo-cc/index.html",
+    "static/css/main.b5e36b2b.chunk.css.map": "/holo-cc/static/css/main.b5e36b2b.chunk.css.map",
+    "static/js/2.a22df34c.chunk.js.LICENSE.txt": "/holo-cc/static/js/2.a22df34c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9eb4be8.js",
+    "static/js/2.a22df34c.chunk.js",
+    "static/css/main.b5e36b2b.chunk.css",
+    "static/js/main.c4341eff.chunk.js"
+  ]
+}
