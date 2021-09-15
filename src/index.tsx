@@ -1,5 +1,7 @@
-import React, { StrictMode } from 'react'
+import { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
+import { QueryParamProvider } from 'use-query-params'
 import App from './App'
 import './index.scss'
 
@@ -7,7 +9,11 @@ const rootElement = document.getElementById('root')
 
 ReactDOM.render(
   <StrictMode>
-    <App />
+    <Router>
+      <QueryParamProvider ReactRouterRoute={Route}>
+        <App />
+      </QueryParamProvider>
+    </Router>
   </StrictMode>,
   rootElement,
 )
