@@ -66,11 +66,10 @@ const MainPlayer: FC<{
             playerRef.current?.seekTo(segments[0].start)
             setPlaying(true)
           }}
-          onPlay = { () => {
-            playerRef.current?.getInternalPlayer().unloadModule("captions")
-            playerRef.current?.getInternalPlayer().unloadModule("cc")
-            }
-          }
+          onPlay={() => {
+            playerRef.current?.getInternalPlayer().unloadModule('captions')
+            playerRef.current?.getInternalPlayer().unloadModule('cc')
+          }}
           onDuration={duration => {
             setDuration(duration)
           }}
